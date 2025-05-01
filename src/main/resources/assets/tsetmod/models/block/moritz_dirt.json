@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tsetmod:block/moritz_dirt"
+  }
+}

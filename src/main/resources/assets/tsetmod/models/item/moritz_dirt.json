@@ -1,5 +1,5 @@
 {
-  "parent": "block/generated",
+  "parent": "tsetmod:block/moritz_dirt",
   "textures": {
     "layer0": "tsetmod:block/moritz_dirt"
   }
