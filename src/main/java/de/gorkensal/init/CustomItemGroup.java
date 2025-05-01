@@ -27,6 +27,7 @@ public class CustomItemGroup {
         // event to add item to the item group
         ItemGroupEvents.modifyEntriesEvent(CUSTOM_ITEM_GROUP_KEY).register(entries -> {
             entries.add(ModItems.SUSPICIOUS_SUBSTANCE);
+            entries.add(ModBlocks.MORITZ_DIRT);
         });
     }
 }

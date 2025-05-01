@@ -1,6 +1,7 @@
 package de.gorkensal;
 
 import de.gorkensal.init.CustomItemGroup;
+import de.gorkensal.init.ModBlocks;
 import de.gorkensal.init.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -21,6 +22,7 @@ public class Tsetmod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.initialize();
+		ModBlocks.initialize();
 		CustomItemGroup.registerItemGroup();
 
 		// This code runs as soon as Minecraft is in a mod-load-ready state.

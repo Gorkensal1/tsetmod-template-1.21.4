@@ -9,11 +9,22 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 import java.util.function.Function;
 
 public class ModBlocks {
+
+
+    public static void initialize() {
+    }
+    public static final Block MORITZ_DIRT = register(
+            "moritz_dirt",
+            Block::new,
+            AbstractBlock.Settings.create().sounds(BlockSoundGroup.GRASS),
+            true );
+
     private static Block register(String name, Function<AbstractBlock.Settings, Block> blockFactory, AbstractBlock.Settings settings, boolean shouldRegisterItem) {
         // Create a registry key for the block
         RegistryKey<Block> blockKey = keyOfBlock(name);
