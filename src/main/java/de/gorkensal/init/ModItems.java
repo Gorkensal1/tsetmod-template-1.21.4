@@ -14,8 +14,7 @@ public class ModItems {
     // itme creation
     public static final Item SUSPICIOUS_SUBSTANCE = register("suspicious_substance", Item::new, new Item.Settings());
     // TO initialize the class in the main
-    public static void initialize() {
-    }
+
     //item metohde
     public static Item register(String name, Function<Item.Settings, Item> itemfactory, Item.Settings settings) {
 
@@ -27,5 +26,7 @@ public class ModItems {
 
         return item;
 
+    }
+    public static void initialize() {
     }
 }
