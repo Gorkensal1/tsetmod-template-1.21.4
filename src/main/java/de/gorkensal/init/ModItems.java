@@ -12,7 +12,7 @@ import java.util.function.Function;
 
 public class ModItems {
     // itme creation
-    public static final Item SUSPICIOUS_SUBSTANCE = register("s", Item::new, new Item.Settings());
+    public static final Item SUSPICIOUS_SUBSTANCE = register("suspicious_substance", Item::new, new Item.Settings());
     // TO initialize the class in the main
     public static void initialize() {
     }

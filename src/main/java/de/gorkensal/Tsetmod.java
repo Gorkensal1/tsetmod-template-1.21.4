@@ -4,6 +4,8 @@ import de.gorkensal.init.CustomItemGroup;
 import de.gorkensal.init.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.registry.Registry;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
