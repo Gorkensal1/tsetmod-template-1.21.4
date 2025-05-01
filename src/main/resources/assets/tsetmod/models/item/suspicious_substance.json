@@ -1,5 +1,5 @@
 {
-  "parent": "tsetmod:item/generated",
+  "parent": "item/generated",
   "textures": {
     "layer0": "tsetmod:item/suspicious_substance"
   }
