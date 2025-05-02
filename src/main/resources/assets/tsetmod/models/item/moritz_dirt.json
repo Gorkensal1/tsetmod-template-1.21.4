@@ -1,6 +1,6 @@
 {
   "parent": "tsetmod:block/moritz_dirt",
   "textures": {
-    "layer0": "tsetmod:block/moritz_dirt"
+    "layer0": "tsetmod:item/moritz_dirt"
   }
 }
